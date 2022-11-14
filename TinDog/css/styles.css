@@ -1,0 +1,188 @@
+#title {
+  padding-bottom: 10%;
+
+  background-color: #f57e7ef5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  margin-top: 15px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.features-row {
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #ef8172;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section  */
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #f78f7f;
+  color: white;
+}
+
+#press {
+  background-color: #f78f7f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3vw;
+  height: 3vw;
+}
+
+/* Pricing Section */
+
+.free-col {
+  height: 94%;
+}
+
+.free-button {
+  margin-top: 21px;
+  color: #ff4c68;
+}
+
+.free-button:hover {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.price-button {
+  color: #e98594;
+  background-color: pink;
+}
+
+.price-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.pricing-row {
+  padding: 5% 10%;
+}
+
+/* Call To Action */
+
+#cta {
+  font-family: "Montserrat";
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 10%;
+}
+
+.call-to-action-text {
+  font-size: 2rem;
+}
+
+/* Footer and Copyright */
+
+#footer {
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 0.5rem;
+}
